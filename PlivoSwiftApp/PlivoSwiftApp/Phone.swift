@@ -18,7 +18,7 @@ class Phone : NSObject {
     }
 
     func login() {
-        #warning Change to valid plivo endpoint username and password.
+        //#warning Change to valid plivo endpoint username and password.
         let username: String = "username"
         let password: String = "password"
         endpoint.login(username, andPassword: password)

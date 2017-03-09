@@ -19,6 +19,7 @@
 		F20FBD9B1E69303D009A31C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FBD9A1E69303D009A31C9 /* AVFoundation.framework */; };
 		F20FBD9D1E693073009A31C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FBD9C1E693073009A31C9 /* AudioToolbox.framework */; };
 		F20FBDA11E6930C5009A31C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FBDA01E6930C5009A31C9 /* SystemConfiguration.framework */; };
+		F2F834091E71619000ACDE7C /* plivo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F834081E71619000ACDE7C /* plivo-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F20FBD9C1E693073009A31C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F20FBD9E1E6930A3009A31C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F20FBDA01E6930C5009A31C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F2F834081E71619000ACDE7C /* plivo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plivo-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		F20FBD631E6926E9009A31C9 /* PlivoSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2F834081E71619000ACDE7C /* plivo-logo.png */,
 				F20FBD641E6926E9009A31C9 /* AppDelegate.swift */,
 				F20FBD661E6926E9009A31C9 /* ViewController.swift */,
 				F20FBD681E6926E9009A31C9 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20FBD6F1E6926E9009A31C9 /* LaunchScreen.storyboard in Resources */,
+				F2F834091E71619000ACDE7C /* plivo-logo.png in Resources */,
 				F20FBD6C1E6926E9009A31C9 /* Assets.xcassets in Resources */,
 				F20FBD6A1E6926E9009A31C9 /* Main.storyboard in Resources */,
 			);
@@ -568,6 +572,7 @@
 				F20FBD8B1E6926EA009A31C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F20FBD8C1E6926EA009A31C9 /* Build configuration list for PBXNativeTarget "PlivoSwiftAppTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +581,7 @@
 				F20FBD8E1E6926EA009A31C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F20FBD8F1E6926EA009A31C9 /* Build configuration list for PBXNativeTarget "PlivoSwiftAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +590,7 @@
 				F20FBD911E6926EA009A31C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
